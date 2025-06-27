@@ -1,15 +1,12 @@
 {
   "name": "maotongjian-js-utils",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A tiny utility library for debounce and throttle functions.",
   "main": "dist/index.js",
   "module": "dist/index.mjs",
   "files": [
     "dist"
   ],
-  "publishConfig": {
-    "access": "public"
-  },
   "scripts": {
     "build": "tsup src/index.js",
     "dev": "tsup src/index.js --watch",
@@ -23,6 +20,17 @@
   ],
   "author": "maotongjian",
   "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/maotongjian/js-utils.git"
+  },
+  "bugs": {
+    "url": "https://github.com/maotongjian/js-utils/issues"
+  },
+  "homepage": "https://github.com/maotongjian/js-utils#readme",
+  "publishConfig": {
+    "access": "public"
+  },
   "devDependencies": {
     "tsup": "^7.2.0"
   }
